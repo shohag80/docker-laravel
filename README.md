@@ -13,9 +13,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 - git clone https://github.com/shohag80/docker-laravel.git
 - cd docker-laravel
-- docker-compose up --build -d.
-- docker-compose exec app php artisan migrate --seed
-- docker-compose start
+- run - docker-compose up --build -d
+- run - docker-compose exec app composer install
+- run - docker-compose exec app php artisan migrate --seed
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
